@@ -1,0 +1,16 @@
+package model ; 
+import util.configs ;
+public class NhanVienParttime extends NhanVien {
+    private int gioLamViec;
+    public NhanVienParttime ( string ten , int gioLamViec ){
+        this.ten = ten ; 
+        this.gioLamViec = gioLamViec ;
+    }
+    @override 
+    public String loaiNhanVien () {
+        return " nhân viên thời vụ " ; 
+    }
+    public void tinhLuong () {
+    luong = Configs. LUONG_NHAN_VIEN_PART_TIME_MOT_GIO * gioLamViec;
+    }
+}
