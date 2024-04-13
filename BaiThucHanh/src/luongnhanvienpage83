@@ -1,0 +1,19 @@
+package model ;
+public class NhanVien {
+  protected String ten ; 
+  protect long luong ; 
+  public NhanVien () {
+}
+public NhanVien(String ten ) {
+t  this.ten = ten ; 
+}
+protectes String loaiNhanVien () {
+// lớp con phải override để lo vụ loại nhân viên này 
+  return "" ;
+}
+public void xuatThongTin () {
+  System.out.println("==== Nhân Viên : " + ten + " ===== ");
+  system.out.println("-loại nhân viên : " +loaiNhanVien());
+  system.out.println("-Lương :" + luong + " VND " );
+}
+}
