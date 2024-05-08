@@ -1,0 +1,18 @@
+import java.util.arraylist ; 
+public class arrlist {
+  public static void main (string[] args) {
+    arraylist <string>color = new ArrayList<string>(3) ;
+    colors.add("Red");
+    colors.add("Blue");
+    colors.add("green");
+    colors.add("Orange");
+    colors.remove("green");
+    colors.add("Pink");
+    colors.add("Yellow");
+
+    Symtem.out.println(colors.get(1));
+    Symtem.out.println(colors.contains("Orange"));
+    Symtem.out.println(colors.size());
+    Symtem.out.println(colors);
+    }
+}
