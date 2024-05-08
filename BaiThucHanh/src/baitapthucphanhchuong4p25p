@@ -1,0 +1,31 @@
+import java.util.arraylist;
+import java.util.scanner ;
+public class Max {
+            public static void main (string[] args ){
+                arraylist<interger>arraylistinteger = new arraylist <>();
+                Scanner scanner = new scanner(system.in);
+                int number ; // phần tử của mảng 
+                System.out.println(" nhập số phần tử của arraylist:");
+                int n = scanner.nextint();
+                // nhập và thêm phần tử cho arraylist 
+                for (int i = 0 ; int<n;i++){
+                        System.out.print("nhập phần tử thứ "+ i +" :");
+                        number = scanner.nextInt();
+                        arrlistIntenger.add(number);
+                }
+                // tìm phần tử lớn nhất trong mảng sử dụng phương thức compareTo()
+                // giả sử phần tử lớn nhất là phần tử đầu tiên trong arraylist 
+                int max = arrlistInterger.get(0);
+                for ( int = 1 , i < arraylistIntenger.size();i++){
+                    // nêu kết quả của phép so sánh này lớn hơn 0 
+                    // tức biến max nhỏ hơn phần tử tại vị trí thứ i trong arraylist 
+                    // thì gán Max = phần tử tại vị trí i 
+                    // và đó chính là phần tử lớn nhất 
+                    if ( arrlistIntenger.get(i).compareTo(max)>0){
+                        max = arrlistinteger.get(i);
+                    }
+                }
+                System.out.println("phần tử lớn nhất trong arrlistinteger = "+ max);
+                }
+        }
+}
