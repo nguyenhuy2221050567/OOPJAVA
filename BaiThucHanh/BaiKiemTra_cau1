@@ -1,0 +1,7 @@
+public class person {
+    public static void main (string|args){
+        string MaSV ;
+        character HoTen;
+        int Namsinh ;
+}
+}
